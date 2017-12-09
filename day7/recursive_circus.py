@@ -28,10 +28,3 @@ get_weight(bases['bsfpjtc'])
 
 
 
-[{'weight': 1597, 'kids': ['lqwwuqk', 'shypdye', 'javnv'], 'total': 1951},
- {'weight': 85, 'kids': ['xgydg', 'hgyhzc', 'pqqxhy', 'qadkf', 'nsxfciq', 'gbuhi'], 'total': 1951},
- {'weight': 538, 'kids': ['jmrywkk', 'skrlqr', 'gbhssic', 'bxbaua', 'rwvvlbx', 'fftxfs'], 'total': 1960}]
-
-[{'name': 'bbytzn', 'weight': 1597, 'kids': ['lqwwuqk', 'shypdye', 'javnv'], 'total': 1951},
- {'name': 'fzvctf', 'weight': 85, 'kids': ['xgydg', 'hgyhzc', 'pqqxhy', 'qadkf', 'nsxfciq', 'gbuhi'], 'total': 1951},
- {'name': 'utnrb', 'weight': 538, 'kids': ['jmrywkk', 'skrlqr', 'gbhssic', 'bxbaua', 'rwvvlbx', 'fftxfs'], 'total': 1960}]
