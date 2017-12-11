@@ -10,4 +10,4 @@ for t in towers:
         for s in t[2]:
             subs.add(s)
 
-print (bases - subs)
+print(bases - subs)

@@ -9,7 +9,7 @@ skip = 0
 
 for _ in range(64):
     for length in lengths:
-        new_list = [circle[(current+x) % 256] for x in range(length)]
+        new_list = [circle[(current + x) % 256] for x in range(length)]
         new_list.reverse()
 
         for idx, n in enumerate(new_list):
@@ -20,8 +20,8 @@ for _ in range(64):
 
 dense_hash = []
 for dense in range(16):
-    sub_list = circle[dense*16:(dense+1)*16]
+    sub_list = circle[dense * 16:(dense + 1) * 16]
     dense_hash.append(reduce(lambda x, y: x ^ y, sub_list))
 
-knot_hash = "".join(['%02x'%x for x in dense_hash])
+knot_hash = "".join(['%02x' % x for x in dense_hash])
 print(knot_hash)

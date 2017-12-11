@@ -1,6 +1,5 @@
 from day8.day8_input import commands
 
-
 largest = 0
 registers = {}
 for c in commands:

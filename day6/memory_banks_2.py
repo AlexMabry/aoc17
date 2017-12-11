@@ -15,7 +15,7 @@ def spread_the_wealth(memory_banks):
     memory_banks[most_pos] = 0
 
     for block in range(most_val):
-        lucky_bank = (most_pos + block+1) % len(memory_banks)
+        lucky_bank = (most_pos + block + 1) % len(memory_banks)
         memory_banks[lucky_bank] += 1
 
     return memory_banks

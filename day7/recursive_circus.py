@@ -25,6 +25,3 @@ def get_weight(sub):
 
 
 get_weight(bases['bsfpjtc'])
-
-
-
